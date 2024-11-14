@@ -13,9 +13,10 @@
   <body>
     <h1 id="result"></h1>
     <script>
-      const max = 100;
-      max = 200;
-      document.getElementById("result").innerHTML = max;
+      const max = { name: "Sabir", age: 21 };
+      max.name = "raees";
+      max = { name: "Affhan", age: 25 };
+      document.getElementById("result").innerHTML = max.name;
     </script>
   </body>
 </html>
